@@ -14,7 +14,8 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-moralis": "^1.4.0",
-    "web3uikit": "^0.1.159"
+    "web3uikit": "^0.1.159",
+    "file-system": "^2.2.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
