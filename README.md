@@ -116,11 +116,12 @@ yarn lint
 ```
 
 
-NOTION PAGE - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
--Made By - AVIRAL GUPTA
--Github - https://github.com/aviral10x
--Discord - aviral23#0766
--Twitter - https://twitter.com/aviral10x
+- NOTION PAGE - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
+
+- Made By - AVIRAL GUPTA
+- Github - https://github.com/aviral10x
+- Discord - aviral23#0766
+- Twitter - https://twitter.com/aviral10x
 
 # Thank you!
 
