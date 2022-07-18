@@ -1,6 +1,6 @@
 # Plants And Pillars
 
-
+ALL DETAILS REGARDING THE PROJECT - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
 1. Run your local blockchain with the lottery code
 ```
 git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
