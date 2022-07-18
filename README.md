@@ -49,35 +49,34 @@ Core Objectives and Future Plans of Plants And Pillars-
 
 ### TESTING GUIDE - 
 
-1. Run your local blockchain with the lottery code
-```
-git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
-cd hardhat-fund-me-fcc
-yarn 
-yarn hardhat node
-```
 
-2. Add hardhat network to your metamask/wallet
 
-- Get the RPC_URL of your hh node (usually `http://127.0.0.1:8545/`)
-- Go to your wallet and add a new network. [See instructions here.](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC)
-  - Network Name: Hardhat-Localhost
-  - New RPC URL: http://127.0.0.1:8545/
-  - Chain ID: 31337
-  - Currency Symbol: ETH (or GO)
-  - Block Explorer URL: None
+1. Run the backend code to get your smart contract deployed on rinkeby network 
 
-Ideally, you'd then [import one of the accounts](https://metamask.zendesk.com/hc/en-us/articles/360015489331-How-to-import-an-Account) from hardhat to your wallet/metamask. 
-
-3. Run this code
-
-Back in a different terminal with the code from this repo, run:
 
 ```
+git clone https://github.com/aviral10x/PlantsAndPillars
+cd backend
+yarn install
+yarn hardhat deploy --network rinkeby
+```
+- Make .env file - 
+RINKEBY_RPC_URL='https://eth-rinkeby.alchemyapi.io/v2/<YourApiKey>'
+PRIVATE_KEY='df2d4d383b4fe08c657cc1a178khg088d3fcc5f1c49fde53678oiue31cd444c8' // Private Key of Test Metamask Wallet
+REPORT_GAS=true
+AUTO_FUND=true
+VRF_SUBSCRIPTION_ID=5466  // Get your VRF_SUBSCRIPTION_ID from here - https://vrf.chain.link/
+
+- Use the Contract Address that you got to Register for new Upkeep - https://keepers.chain.link/rinkeby/new
+
+2. Now run the frontend
+```
+cd ../
+yarn install
 yarn dev
 ```
 
-4. Go to UI and have fun!
+3. Go to UI and have fun!
 
 Head over to your [localhost](http://localhost:3000) and play with the lottery!
 
