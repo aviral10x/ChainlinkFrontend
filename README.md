@@ -1,4 +1,5 @@
-# PlantsAndPillars Smartcontract Lottery
+# Plants And Pillars
+
 
 1. Run your local blockchain with the lottery code
 ```
