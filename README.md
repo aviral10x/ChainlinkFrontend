@@ -61,12 +61,13 @@ yarn install
 yarn hardhat deploy --network rinkeby
 ```
 - Make .env file - 
+```
 RINKEBY_RPC_URL='https://eth-rinkeby.alchemyapi.io/v2/<YourApiKey>'
-PRIVATE_KEY='df2d4d383b4fe08c657cc1a178khg088d3fcc5f1c49fde53678oiue31cd444c8' // Private Key of Test Metamask Wallet
+ PRIVATE_KEY='df2d4d383b4fe08c657cc1a178khg088d3fcc5f1c49fde53678oiue31cd444c8' // Private Key of Test Metamask Wallet
 REPORT_GAS=true
 AUTO_FUND=true
 VRF_SUBSCRIPTION_ID=5466  // Get your VRF_SUBSCRIPTION_ID from here - https://vrf.chain.link/
-
+```
 - Use the Contract Address that you got to Register for new Upkeep - https://keepers.chain.link/rinkeby/new
 
 2. Now run the frontend
