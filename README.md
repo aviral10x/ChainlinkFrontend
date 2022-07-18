@@ -43,6 +43,7 @@ Core Objectives and Future Plans of Plants And Pillars-
 - Implementation of NFTPORT - [https://github.com/aviral10x/PlantsAndPillars/blob/main/components/MintNFT.js](https://github.com/aviral10x/PlantsAndPillars/blob/main/components/MintNFT.js)
 
 ### WORKING DEMO OF MVP - https://dark-mud-0966.on.fleek.co/
+![MVP](./MVP.png)
 
 ### TESTING GUIDE - 
 
