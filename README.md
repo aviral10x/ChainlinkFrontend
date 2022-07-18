@@ -42,55 +42,9 @@ Core Objectives and Future Plans of Plants And Pillars-
 - I have also used Fleek to host the website on IPFS - [https://dark-mud-0966.on.fleek.co/](https://dark-mud-0966.on.fleek.co/)
 - Implementation of NFTPORT - [https://github.com/aviral10x/PlantsAndPillars/blob/main/components/MintNFT.js](https://github.com/aviral10x/PlantsAndPillars/blob/main/components/MintNFT.js)
 
+###WORKING DEMO OF MVP - https://dark-mud-0966.on.fleek.co/
 
-
-
-
-
-
-
-
-
-
-
-
-Made By - AVIRAL GUPTA
-Github - https://github.com/aviral10x
-Discord - 
-Twitter - 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NOTION PAGE - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###TESTING GUIDE - 
 
 1. Run your local blockchain with the lottery code
 ```
@@ -161,6 +115,12 @@ To check linting / code formatting:
 yarn lint
 ```
 
+
+NOTION PAGE - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
+-Made By - AVIRAL GUPTA
+-Github - https://github.com/aviral10x
+-Discord - aviral23#0766
+-Twitter - https://twitter.com/aviral10x
 
 # Thank you!
 
