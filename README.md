@@ -33,7 +33,7 @@ Core Objectives and Future Plans of Plants And Pillars-
 - This is used to generate a random winner from the list of people who have planted trees on a particular day and have minted their NFTs.
 - Chainlink Keepers Functions - [https://github.com/aviral10x/PlantsAndPillars/blob/main/backend/contracts/Raffle.sol](https://github.com/aviral10x/PlantsAndPillars/blob/main/backend/contracts/Raffle.sol)
 - This is used to automate the smart contracts by running the Verifiable Random Function to help in selecting the winner every day.
-- The checkUpkeep function will check if the auction/grant ended or not.
+- The checkUpkeep function will check if the lottery has ended or not.
 - the performUpkeep function will automatically execute the functions in a set time period when the day has ended. This function also automatically sends the amount to the winner of that day.
 
 - **Use of IPFS -**
