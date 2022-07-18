@@ -45,6 +45,8 @@ Core Objectives and Future Plans of Plants And Pillars-
 ### WORKING DEMO OF MVP - https://dark-mud-0966.on.fleek.co/
 ![MVP](./MVP.png)
 
+### VIDEO OF WORKING DEMO AND EXPLAINATION ABOUT THE PROJECT - https://youtu.be/1EienYGbMdIl
+
 ### TESTING GUIDE - 
 
 1. Run your local blockchain with the lottery code
