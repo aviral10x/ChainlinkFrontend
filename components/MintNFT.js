@@ -72,7 +72,7 @@ export default function MintNFT() {
                     <div className="flex justify-between">
                         <div className="flex flex-col items-center">
                             <div className="flex flex-col items-center">
-                                <h2>MINT YOUR WORK AS AN NFT</h2>
+                                <div className="font-bold text-2xl">MINT YOUR WORK AS AN NFT</div>
 
                                 <div className="flex flex-col mt-8">
                                     <input
@@ -100,7 +100,7 @@ export default function MintNFT() {
                             </div>
                             <div className="flex mt-10 mb-10 space-x-4">
                                 <button
-                                    className="font-roboto  border-2 px-[40px] py-2 border-[#6633FF] hover:bg-[#6633FF]"
+                                    className="font-roboto text-xl font-bold  border-2 px-[40px] py-2 border-[#6633FF] hover:bg-[#6633FF]"
                                     onClick={onSubmit}
                                 >
                                     MINT NFT
