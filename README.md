@@ -117,7 +117,18 @@ To check linting / code formatting:
 ```
 yarn lint
 ```
+### **Tech Stack -**
+- **BACKEND -**
+- Chainlink
+- IPFS
+- Moralis
+- Hardhat
+- Solidity
 
+- **FRONTEND -**
+- Nextjs for the frontend app
+- TailwindCSS
+- web3uikit by Moralis
 
 - NOTION PAGE - https://www.notion.so/Plants-And-Pillars-95884cb336794be7ad0f883a0e771411
 
